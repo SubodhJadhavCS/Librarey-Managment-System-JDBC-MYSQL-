@@ -1,9 +1,40 @@
-# Library Management System Using Java and SQL
+Library Management System (JDBC + MySQL)
 
-A simple library management system built in Java and pulling data from a MYSQL database. The system includes roles for staff and patrons. Patrons can create new accounts, and after doing so can
-check out, return, and place holds on books. Librarians can view available books, holds, and overdue books based on either Patron Ids or book author, and can manipulate patron holds.
+📌 Overview
 
-The purpose of this project was to explore database connections and basic GUIs in Java as opposed to web scraping or
-data engineering, and so the database is populated with placeholder data.
+A Library Management System built using Java, JDBC, and MySQL, designed to manage book borrowing, returns,
+and searches efficiently. This system includes user authentication with distinct Admin & User roles,
+ensuring secure and organized management of library resources.
 
-(*Note:* The database has since been shut down, so the program will not populate with any data)
+
+🚀 Tech Stack
+
+Language: Java
+Database: MySQL
+Backend: JDBC
+
+🔹 Features
+
+✔️ User Authentication – Admin & User roles for secure access
+✔️ Book Management – Add, delete, and update book records
+✔️ Borrow & Return System – Track issued and returned books
+✔️ Search Functionality – Find books using SQL queries
+✔️ JDBC Connectivity – Efficient database interactions using prepared statements
+
+⚡ Setup Instructions
+
+1️⃣ Clone this repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/library-management-system.git
+
+2️⃣ Configure your MySQL database and update credentials in the project.
+3️⃣ Run the application in your preferred IDE (IntelliJ/Eclipse).
+
+📜 Future Enhancements
+
+Implement GUI using JavaFX
+Add fine calculation for late returns
+Introduce REST API for remote access
