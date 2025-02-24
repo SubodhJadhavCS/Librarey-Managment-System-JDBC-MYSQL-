@@ -28,7 +28,7 @@ Backend: JDBC
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/library-management-system.git
+git clone https://github.com/SubodhJadhavCS/Librarey-Managment-System-JDBC-MYSQL-.git
 
 2️⃣ Configure your MySQL database and update credentials in the project.
 3️⃣ Run the application in your preferred IDE (IntelliJ/Eclipse).
